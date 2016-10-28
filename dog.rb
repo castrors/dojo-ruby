@@ -1,5 +1,6 @@
 class Dog
-  def bark
-  	return "au"
+  def bark (toto, pedigree)
+    puts toto
+  	return toto + " " + pedigree+ " au"
   end
 end
